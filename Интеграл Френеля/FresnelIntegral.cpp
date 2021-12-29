@@ -1,6 +1,6 @@
 #include "FresnelIntegral.h"
 
-FresnelIntegral::FresnelIntegral(double _lambda, double _z, const std::vector<std::vector<ComplexNumber>> _intensities, double _realHeight, double _realWidth) {
+FresnelIntegral::FresnelIntegral(double _lambda, double _z, const std::vector<std::vector<ComplexNumber>>& _amplitudes, double _realHeight, double _realWidth) {
 	lambda = _lambda;
 	z = _z;
 	k = 2 * std::acos(-1) / lambda;

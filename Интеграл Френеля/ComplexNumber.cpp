@@ -59,8 +59,3 @@ ComplexNumber operator*(ComplexNumber numb1, const ComplexNumber& numb2) {
 ComplexNumber operator/(ComplexNumber numb1, const ComplexNumber& numb2) {
 	return numb1 /= numb2;
 }
-
-std::ofstream& operator<<(std::ofstream& cout, ComplexNumber& numb) {
-	cout << '(' << numb.getReal() << '+' << numb.getImaginary() << "j)";
-	return cout;
-}

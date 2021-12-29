@@ -146,8 +146,9 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="finalMatrix.txt" />
-    <Text Include="startMatrix.txt" />
+    <Text Include="amplitudes.txt" />
+    <Text Include="config.txt" />
+    <Text Include="resultAmplitudes.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComplexNumber.h" />

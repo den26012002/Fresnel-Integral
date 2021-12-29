@@ -32,10 +32,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="startMatrix.txt">
+    <Text Include="resultAmplitudes.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="finalMatrix.txt">
+    <Text Include="amplitudes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="config.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

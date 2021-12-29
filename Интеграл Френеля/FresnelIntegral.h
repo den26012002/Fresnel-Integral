@@ -7,7 +7,7 @@
 
 class FresnelIntegral {
 public:
-	FresnelIntegral(double _lambda, double _z, const std::vector<std::vector<ComplexNumber>> _intensities, double _realHeight, double _realWidth);
+	FresnelIntegral(double _lambda, double _z, const std::vector<std::vector<ComplexNumber>>& _amplitudes, double _realHeight, double _realWidth);
 
 	std::vector<std::vector<ComplexNumber>> integrate();
 
