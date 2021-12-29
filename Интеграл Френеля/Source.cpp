@@ -31,8 +31,9 @@ int main()
 	auto integrationResult = fresnelIntegral.integrate();
 	for (auto& line : integrationResult) {
 		for (auto number : line) {
-			fout << '(' << number.getReal() << '+' << number.getImaginary() << "j)";
+			fout << '(' << number.getReal() << '+' << number.getImaginary() << "j)" << ' ';
 		}
+		fout << '\n';
 	}
 
 	return 0;
