@@ -21,7 +21,7 @@ std::vector<std::vector<double>> FresnelIntegral::integrate() {
 					result += intensities[yprime][xprime] * complexExp(k * (std::pow(x - xprime, 2) + std::pow(y - yprime, 2)) / (2 * z)) * dx * dy;
 				}
 			}
-			result *= complexExp(k * z) / (I * lambda * z);
+			result *= I * complexExp(k * z) / (lambda * z);
 			integratingResult[y][x] = result.abs();
 		});
 	});
