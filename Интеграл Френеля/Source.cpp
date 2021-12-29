@@ -1,3 +1,5 @@
+#include<ppl.h>
+#include<iostream>
 #include<fstream>
 #include<vector>
 #include<math.h>
@@ -9,7 +11,6 @@ std::ofstream fout("finalMatrix.txt");
 
 int main()
 {
-
 	
 
 	return 0;
