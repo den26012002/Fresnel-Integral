@@ -11,6 +11,7 @@ std::ofstream fout("finalMatrix.txt");
 
 int main()
 {
+
 	
 
 	return 0;

@@ -9,7 +9,7 @@ class FresnelIntegral {
 public:
 	FresnelIntegral(double _lambda, double _z, const std::vector<std::vector<double>> _intensities, double _realHeight, double _realWidth);
 
-	std::vector<std::vector<ComplexNumber>> integrate();
+	std::vector<std::vector<double>> integrate();
 
 private:
 	double lambda; // длина волны
