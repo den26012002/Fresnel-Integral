@@ -18,6 +18,6 @@ private:
 	std::vector<std::vector<ComplexNumber>> amplitudes; // исходное распределение интенсивностей
 	double realHeight; // физическая высота изображения
 	double realWidth; // физическая ширина изображения
-	double dx;
-	double dy;
+	double dx; // ширина пикселя
+	double dy; // высота пикселя
 };

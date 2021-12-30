@@ -22,7 +22,7 @@ std::vector<std::vector<ComplexNumber>> FresnelIntegral::integrate() {
 					result += amplitudes[yprime][xprime] * complexExp(k * (std::pow((x - xprime) * dx, 2) + std::pow((y - yprime) * dy, 2)) / (2 * z)) * dx * dy;
 				}
 			}
-			result *= complexExp(k * z) / (I * lambda * z);
+			result *= I * complexExp(k * z) / (lambda * z);
 			integratingResult[y][x] = result;
 		});
 	});
